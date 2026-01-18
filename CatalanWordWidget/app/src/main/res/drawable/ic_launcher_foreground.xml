@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Background circle -->
+    <path
+        android:fillColor="#2DB3A2"
+        android:pathData="M54,54m-40,0a40,40 0,1 1,80 0a40,40 0,1 1,-80 0"/>
+    <!-- Letter C for Catalan -->
+    <path
+        android:fillColor="#FFFFFF"
+        android:pathData="M54,34c-11,0 -20,9 -20,20s9,20 20,20c7,0 13,-3.5 16.5,-9l-8,-5c-2,3 -5,5 -8.5,5c-6.5,0 -12,-5.5 -12,-11s5.5,-11 12,-11c3.5,0 6.5,2 8.5,5l8,-5c-3.5,-5.5 -9.5,-9 -16.5,-9z"/>
+</vector>
