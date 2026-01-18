@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="teal_accent">#2DB3A2</color>
+    <color name="text_dark">#333333</color>
+    <color name="text_medium">#666666</color>
+    <color name="text_light">#888888</color>
+    <color name="text_hint">#AAAAAA</color>
+    <color name="card_background">#FFFFFF</color>
+    <color name="header_background">#F8F8F8</color>
+</resources>
