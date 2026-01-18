@@ -1,0 +1,2192 @@
+[
+  {
+    "word": "Hola",
+    "translation": "Hello",
+    "example": "Hola, com estàs?",
+    "exampleTranslation": "Hello, how are you?"
+  },
+  {
+    "word": "Bon dia",
+    "translation": "Good morning",
+    "example": "Bon dia, què tal?",
+    "exampleTranslation": "Good morning, how's it going?"
+  },
+  {
+    "word": "Bona tarda",
+    "translation": "Good afternoon",
+    "example": "Bona tarda a tothom!",
+    "exampleTranslation": "Good afternoon everyone!"
+  },
+  {
+    "word": "Bona nit",
+    "translation": "Good night",
+    "example": "Bona nit, fins demà!",
+    "exampleTranslation": "Good night, see you tomorrow!"
+  },
+  {
+    "word": "Adéu",
+    "translation": "Goodbye",
+    "example": "Adéu, ens veiem aviat!",
+    "exampleTranslation": "Goodbye, see you soon!"
+  },
+  {
+    "word": "Si us plau",
+    "translation": "Please",
+    "example": "Un cafè, si us plau.",
+    "exampleTranslation": "A coffee, please."
+  },
+  {
+    "word": "Gràcies",
+    "translation": "Thank you",
+    "example": "Gràcies per la teva ajuda!",
+    "exampleTranslation": "Thank you for your help!"
+  },
+  {
+    "word": "De res",
+    "translation": "You're welcome",
+    "example": "De res, ha estat un plaer.",
+    "exampleTranslation": "You're welcome, it was a pleasure."
+  },
+  {
+    "word": "Perdó",
+    "translation": "Sorry / Excuse me",
+    "example": "Perdó, puc passar?",
+    "exampleTranslation": "Excuse me, can I pass?"
+  },
+  {
+    "word": "Disculpa",
+    "translation": "Excuse me / Sorry",
+    "example": "Disculpa, on és el banc?",
+    "exampleTranslation": "Excuse me, where is the bank?"
+  },
+  {
+    "word": "Sí",
+    "translation": "Yes",
+    "example": "Sí, m'agrada molt.",
+    "exampleTranslation": "Yes, I like it a lot."
+  },
+  {
+    "word": "No",
+    "translation": "No",
+    "example": "No, gràcies, no en vull.",
+    "exampleTranslation": "No, thank you, I don't want any."
+  },
+  {
+    "word": "Benvingut",
+    "translation": "Welcome",
+    "example": "Benvingut a Barcelona!",
+    "exampleTranslation": "Welcome to Barcelona!"
+  },
+  {
+    "word": "Com estàs?",
+    "translation": "How are you?",
+    "example": "Hola Maria, com estàs?",
+    "exampleTranslation": "Hello Maria, how are you?"
+  },
+  {
+    "word": "Molt bé",
+    "translation": "Very well",
+    "example": "Estic molt bé, gràcies.",
+    "exampleTranslation": "I'm very well, thank you."
+  },
+  {
+    "word": "Fins aviat",
+    "translation": "See you soon",
+    "example": "Fins aviat, cuida't!",
+    "exampleTranslation": "See you soon, take care!"
+  },
+  {
+    "word": "Fins després",
+    "translation": "See you later",
+    "example": "Fins després, ens truquem.",
+    "exampleTranslation": "See you later, we'll call each other."
+  },
+  {
+    "word": "Com et dius?",
+    "translation": "What's your name?",
+    "example": "Hola, com et dius?",
+    "exampleTranslation": "Hello, what's your name?"
+  },
+  {
+    "word": "Em dic",
+    "translation": "My name is",
+    "example": "Em dic Anna, i tu?",
+    "exampleTranslation": "My name is Anna, and you?"
+  },
+  {
+    "word": "Encantat",
+    "translation": "Nice to meet you",
+    "example": "Encantat de conèixer-te!",
+    "exampleTranslation": "Nice to meet you!"
+  },
+  {
+    "word": "D'acord",
+    "translation": "Okay / Agreed",
+    "example": "D'acord, ens veiem a les cinc.",
+    "exampleTranslation": "Okay, we'll meet at five."
+  },
+  {
+    "word": "Clar",
+    "translation": "Sure / Of course",
+    "example": "Clar que sí, cap problema!",
+    "exampleTranslation": "Of course, no problem!"
+  },
+  {
+    "word": "Salut",
+    "translation": "Cheers / Bless you",
+    "example": "Salut! Per una bona vida!",
+    "exampleTranslation": "Cheers! To a good life!"
+  },
+  {
+    "word": "Que vagi bé",
+    "translation": "Take care",
+    "example": "Adéu, que vagi bé!",
+    "exampleTranslation": "Goodbye, take care!"
+  },
+  {
+    "word": "Bon profit",
+    "translation": "Enjoy your meal",
+    "example": "El menjar és aquí, bon profit!",
+    "exampleTranslation": "The food is here, enjoy your meal!"
+  },
+  {
+    "word": "Felicitats",
+    "translation": "Congratulations",
+    "example": "Felicitats pel teu aniversari!",
+    "exampleTranslation": "Congratulations on your birthday!"
+  },
+  {
+    "word": "Bona sort",
+    "translation": "Good luck",
+    "example": "Bona sort amb l'examen!",
+    "exampleTranslation": "Good luck with the exam!"
+  },
+  {
+    "word": "Què tal?",
+    "translation": "How's it going?",
+    "example": "Ei, què tal la feina?",
+    "exampleTranslation": "Hey, how's work going?"
+  },
+  {
+    "word": "Tot bé",
+    "translation": "All good",
+    "example": "Tot bé per aquí, gràcies.",
+    "exampleTranslation": "All good here, thank you."
+  },
+  {
+    "word": "Ho sento",
+    "translation": "I'm sorry",
+    "example": "Ho sento molt, és culpa meva.",
+    "exampleTranslation": "I'm very sorry, it's my fault."
+  },
+  {
+    "word": "Un",
+    "translation": "One",
+    "example": "Vull un gelat de xocolata.",
+    "exampleTranslation": "I want one chocolate ice cream."
+  },
+  {
+    "word": "Dos",
+    "translation": "Two",
+    "example": "Tinc dos germans petits.",
+    "exampleTranslation": "I have two younger siblings."
+  },
+  {
+    "word": "Tres",
+    "translation": "Three",
+    "example": "El tren surt a les tres.",
+    "exampleTranslation": "The train leaves at three."
+  },
+  {
+    "word": "Quatre",
+    "translation": "Four",
+    "example": "Hi ha quatre cadires a la cuina.",
+    "exampleTranslation": "There are four chairs in the kitchen."
+  },
+  {
+    "word": "Cinc",
+    "translation": "Five",
+    "example": "Treballo cinc dies a la setmana.",
+    "exampleTranslation": "I work five days a week."
+  },
+  {
+    "word": "Sis",
+    "translation": "Six",
+    "example": "Em llevo a les sis del matí.",
+    "exampleTranslation": "I wake up at six in the morning."
+  },
+  {
+    "word": "Set",
+    "translation": "Seven",
+    "example": "La setmana té set dies.",
+    "exampleTranslation": "The week has seven days."
+  },
+  {
+    "word": "Vuit",
+    "translation": "Eight",
+    "example": "Dormo vuit hores cada nit.",
+    "exampleTranslation": "I sleep eight hours every night."
+  },
+  {
+    "word": "Nou",
+    "translation": "Nine",
+    "example": "L'escola comença a les nou.",
+    "exampleTranslation": "School starts at nine."
+  },
+  {
+    "word": "Deu",
+    "translation": "Ten",
+    "example": "Costa deu euros en total.",
+    "exampleTranslation": "It costs ten euros in total."
+  },
+  {
+    "word": "Avui",
+    "translation": "Today",
+    "example": "Avui fa molt bon temps.",
+    "exampleTranslation": "Today the weather is very nice."
+  },
+  {
+    "word": "Demà",
+    "translation": "Tomorrow",
+    "example": "Demà anirem a la platja.",
+    "exampleTranslation": "Tomorrow we'll go to the beach."
+  },
+  {
+    "word": "Ahir",
+    "translation": "Yesterday",
+    "example": "Ahir vaig veure una pel·lícula.",
+    "exampleTranslation": "Yesterday I watched a movie."
+  },
+  {
+    "word": "Hora",
+    "translation": "Hour / Time",
+    "example": "Quina hora és ara?",
+    "exampleTranslation": "What time is it now?"
+  },
+  {
+    "word": "Minut",
+    "translation": "Minute",
+    "example": "Espera un minut, si us plau.",
+    "exampleTranslation": "Wait a minute, please."
+  },
+  {
+    "word": "Segon",
+    "translation": "Second",
+    "example": "Torno en un segon!",
+    "exampleTranslation": "I'll be back in a second!"
+  },
+  {
+    "word": "Dia",
+    "translation": "Day",
+    "example": "Quin dia és avui?",
+    "exampleTranslation": "What day is it today?"
+  },
+  {
+    "word": "Setmana",
+    "translation": "Week",
+    "example": "La propera setmana tinc vacances.",
+    "exampleTranslation": "Next week I have holidays."
+  },
+  {
+    "word": "Mes",
+    "translation": "Month",
+    "example": "El meu mes preferit és juliol.",
+    "exampleTranslation": "My favorite month is July."
+  },
+  {
+    "word": "Any",
+    "translation": "Year",
+    "example": "L'any passat vaig viatjar molt.",
+    "exampleTranslation": "Last year I traveled a lot."
+  },
+  {
+    "word": "Matí",
+    "translation": "Morning",
+    "example": "Al matí prenc un cafè.",
+    "exampleTranslation": "In the morning I have a coffee."
+  },
+  {
+    "word": "Tarda",
+    "translation": "Afternoon",
+    "example": "A la tarda faig esport.",
+    "exampleTranslation": "In the afternoon I do sports."
+  },
+  {
+    "word": "Nit",
+    "translation": "Night",
+    "example": "A la nit llegeixo un llibre.",
+    "exampleTranslation": "At night I read a book."
+  },
+  {
+    "word": "Ara",
+    "translation": "Now",
+    "example": "Ara estic ocupat, després parlem.",
+    "exampleTranslation": "Now I'm busy, we'll talk later."
+  },
+  {
+    "word": "Sempre",
+    "translation": "Always",
+    "example": "Sempre arribo puntual a la feina.",
+    "exampleTranslation": "I always arrive on time at work."
+  },
+  {
+    "word": "Pa",
+    "translation": "Bread",
+    "example": "Compra pa a la fleca.",
+    "exampleTranslation": "Buy bread at the bakery."
+  },
+  {
+    "word": "Aigua",
+    "translation": "Water",
+    "example": "Voldria una ampolla d'aigua, si us plau.",
+    "exampleTranslation": "I'd like a bottle of water, please."
+  },
+  {
+    "word": "Cervesa",
+    "translation": "Beer",
+    "example": "Una cervesa ben freda, si us plau.",
+    "exampleTranslation": "A cold beer, please."
+  },
+  {
+    "word": "Vi",
+    "translation": "Wine",
+    "example": "Aquest vi és de la Rioja.",
+    "exampleTranslation": "This wine is from Rioja."
+  },
+  {
+    "word": "Cafè",
+    "translation": "Coffee",
+    "example": "Vols un cafè amb llet?",
+    "exampleTranslation": "Do you want a coffee with milk?"
+  },
+  {
+    "word": "Te",
+    "translation": "Tea",
+    "example": "Prefereixo te amb llimona.",
+    "exampleTranslation": "I prefer tea with lemon."
+  },
+  {
+    "word": "Llet",
+    "translation": "Milk",
+    "example": "No tinc llet a la nevera.",
+    "exampleTranslation": "I don't have milk in the fridge."
+  },
+  {
+    "word": "Suc",
+    "translation": "Juice",
+    "example": "Vull un suc de taronja natural.",
+    "exampleTranslation": "I want a fresh orange juice."
+  },
+  {
+    "word": "Esmorzar",
+    "translation": "Breakfast",
+    "example": "Què menges per esmorzar?",
+    "exampleTranslation": "What do you eat for breakfast?"
+  },
+  {
+    "word": "Dinar",
+    "translation": "Lunch",
+    "example": "Dinem junts a la una?",
+    "exampleTranslation": "Shall we have lunch together at one?"
+  },
+  {
+    "word": "Sopar",
+    "translation": "Dinner",
+    "example": "Avui sopem a casa dels avis.",
+    "exampleTranslation": "Today we're having dinner at grandparents' house."
+  },
+  {
+    "word": "Menjar",
+    "translation": "Food / To eat",
+    "example": "El menjar d'aquí és excel·lent.",
+    "exampleTranslation": "The food here is excellent."
+  },
+  {
+    "word": "Carn",
+    "translation": "Meat",
+    "example": "No menjo carn, soc vegetarià.",
+    "exampleTranslation": "I don't eat meat, I'm vegetarian."
+  },
+  {
+    "word": "Peix",
+    "translation": "Fish",
+    "example": "M'encanta el peix fresc del mercat.",
+    "exampleTranslation": "I love fresh fish from the market."
+  },
+  {
+    "word": "Pollastre",
+    "translation": "Chicken",
+    "example": "Vull pollastre rostit amb patates.",
+    "exampleTranslation": "I want roasted chicken with potatoes."
+  },
+  {
+    "word": "Verdura",
+    "translation": "Vegetables",
+    "example": "Menjo verdura cada dia.",
+    "exampleTranslation": "I eat vegetables every day."
+  },
+  {
+    "word": "Fruita",
+    "translation": "Fruit",
+    "example": "La fruita d'estiu és deliciosa.",
+    "exampleTranslation": "Summer fruit is delicious."
+  },
+  {
+    "word": "Poma",
+    "translation": "Apple",
+    "example": "Vols una poma o una pera?",
+    "exampleTranslation": "Do you want an apple or a pear?"
+  },
+  {
+    "word": "Taronja",
+    "translation": "Orange",
+    "example": "Aquestes taronges són de València.",
+    "exampleTranslation": "These oranges are from Valencia."
+  },
+  {
+    "word": "Plàtan",
+    "translation": "Banana",
+    "example": "Menjo un plàtan abans de córrer.",
+    "exampleTranslation": "I eat a banana before running."
+  },
+  {
+    "word": "Tomàquet",
+    "translation": "Tomato",
+    "example": "El pa amb tomàquet és típic català.",
+    "exampleTranslation": "Bread with tomato is typical Catalan."
+  },
+  {
+    "word": "Patata",
+    "translation": "Potato",
+    "example": "M'agraden les patates fregides.",
+    "exampleTranslation": "I like fried potatoes."
+  },
+  {
+    "word": "Arròs",
+    "translation": "Rice",
+    "example": "L'arròs negre és el meu preferit.",
+    "exampleTranslation": "Black rice is my favorite."
+  },
+  {
+    "word": "Pasta",
+    "translation": "Pasta",
+    "example": "Cuino pasta amb salsa de tomàquet.",
+    "exampleTranslation": "I cook pasta with tomato sauce."
+  },
+  {
+    "word": "Formatge",
+    "translation": "Cheese",
+    "example": "Aquest formatge és molt bo.",
+    "exampleTranslation": "This cheese is very good."
+  },
+  {
+    "word": "Ou",
+    "translation": "Egg",
+    "example": "Vols els ous ferrats o remenats?",
+    "exampleTranslation": "Do you want the eggs fried or scrambled?"
+  },
+  {
+    "word": "Sal",
+    "translation": "Salt",
+    "example": "Passa'm la sal, si us plau.",
+    "exampleTranslation": "Pass me the salt, please."
+  },
+  {
+    "word": "Sucre",
+    "translation": "Sugar",
+    "example": "No poso sucre al cafè.",
+    "exampleTranslation": "I don't put sugar in coffee."
+  },
+  {
+    "word": "Oli",
+    "translation": "Oil",
+    "example": "L'oli d'oliva és molt saludable.",
+    "exampleTranslation": "Olive oil is very healthy."
+  },
+  {
+    "word": "Gelat",
+    "translation": "Ice cream",
+    "example": "Vull un gelat de maduixa.",
+    "exampleTranslation": "I want a strawberry ice cream."
+  },
+  {
+    "word": "Pastís",
+    "translation": "Cake",
+    "example": "El pastís d'aniversari és de xocolata.",
+    "exampleTranslation": "The birthday cake is chocolate."
+  },
+  {
+    "word": "Xocolata",
+    "translation": "Chocolate",
+    "example": "M'encanta la xocolata negra.",
+    "exampleTranslation": "I love dark chocolate."
+  },
+  {
+    "word": "Restaurant",
+    "translation": "Restaurant",
+    "example": "Conec un bon restaurant a prop.",
+    "exampleTranslation": "I know a good restaurant nearby."
+  },
+  {
+    "word": "Carta",
+    "translation": "Menu",
+    "example": "Puc veure la carta, si us plau?",
+    "exampleTranslation": "Can I see the menu, please?"
+  },
+  {
+    "word": "Compte",
+    "translation": "Bill / Check",
+    "example": "El compte, si us plau.",
+    "exampleTranslation": "The bill, please."
+  },
+  {
+    "word": "Gana",
+    "translation": "Hunger",
+    "example": "Tinc molta gana, anem a dinar.",
+    "exampleTranslation": "I'm very hungry, let's go to lunch."
+  },
+  {
+    "word": "Set",
+    "translation": "Thirst",
+    "example": "Tinc set, vull beure aigua.",
+    "exampleTranslation": "I'm thirsty, I want to drink water."
+  },
+  {
+    "word": "Deliciós",
+    "translation": "Delicious",
+    "example": "Aquest plat és deliciós!",
+    "exampleTranslation": "This dish is delicious!"
+  },
+  {
+    "word": "Mare",
+    "translation": "Mother",
+    "example": "La meva mare cuina molt bé.",
+    "exampleTranslation": "My mother cooks very well."
+  },
+  {
+    "word": "Pare",
+    "translation": "Father",
+    "example": "El meu pare treballa a Barcelona.",
+    "exampleTranslation": "My father works in Barcelona."
+  },
+  {
+    "word": "Germà",
+    "translation": "Brother",
+    "example": "Tinc un germà gran i una germana.",
+    "exampleTranslation": "I have an older brother and a sister."
+  },
+  {
+    "word": "Germana",
+    "translation": "Sister",
+    "example": "La meva germana estudia medicina.",
+    "exampleTranslation": "My sister studies medicine."
+  },
+  {
+    "word": "Fill",
+    "translation": "Son",
+    "example": "El meu fill té deu anys.",
+    "exampleTranslation": "My son is ten years old."
+  },
+  {
+    "word": "Filla",
+    "translation": "Daughter",
+    "example": "La meva filla va a l'escola.",
+    "exampleTranslation": "My daughter goes to school."
+  },
+  {
+    "word": "Avi",
+    "translation": "Grandfather",
+    "example": "El meu avi té vuitanta anys.",
+    "exampleTranslation": "My grandfather is eighty years old."
+  },
+  {
+    "word": "Àvia",
+    "translation": "Grandmother",
+    "example": "La meva àvia fa pastissos increïbles.",
+    "exampleTranslation": "My grandmother makes incredible cakes."
+  },
+  {
+    "word": "Oncle",
+    "translation": "Uncle",
+    "example": "El meu oncle viu a Girona.",
+    "exampleTranslation": "My uncle lives in Girona."
+  },
+  {
+    "word": "Tieta",
+    "translation": "Aunt",
+    "example": "La tieta ens visita cada estiu.",
+    "exampleTranslation": "Our aunt visits us every summer."
+  },
+  {
+    "word": "Cosí",
+    "translation": "Cousin (male)",
+    "example": "El meu cosí és molt divertit.",
+    "exampleTranslation": "My cousin is very funny."
+  },
+  {
+    "word": "Cosina",
+    "translation": "Cousin (female)",
+    "example": "La meva cosina viu a Madrid.",
+    "exampleTranslation": "My cousin lives in Madrid."
+  },
+  {
+    "word": "Amic",
+    "translation": "Friend (male)",
+    "example": "El meu millor amic és de Catalunya.",
+    "exampleTranslation": "My best friend is from Catalonia."
+  },
+  {
+    "word": "Amiga",
+    "translation": "Friend (female)",
+    "example": "La meva amiga parla tres idiomes.",
+    "exampleTranslation": "My friend speaks three languages."
+  },
+  {
+    "word": "Noi",
+    "translation": "Boy / Boyfriend",
+    "example": "Aquell noi és molt simpàtic.",
+    "exampleTranslation": "That boy is very nice."
+  },
+  {
+    "word": "Noia",
+    "translation": "Girl / Girlfriend",
+    "example": "La noia treballa a la botiga.",
+    "exampleTranslation": "The girl works at the shop."
+  },
+  {
+    "word": "Home",
+    "translation": "Man",
+    "example": "Aquell home és el meu veí.",
+    "exampleTranslation": "That man is my neighbor."
+  },
+  {
+    "word": "Dona",
+    "translation": "Woman / Wife",
+    "example": "Aquesta dona és metgessa.",
+    "exampleTranslation": "This woman is a doctor."
+  },
+  {
+    "word": "Família",
+    "translation": "Family",
+    "example": "La família es reuneix els diumenges.",
+    "exampleTranslation": "The family gathers on Sundays."
+  },
+  {
+    "word": "Nen",
+    "translation": "Child (boy)",
+    "example": "El nen juga al parc.",
+    "exampleTranslation": "The child plays in the park."
+  },
+  {
+    "word": "Nena",
+    "translation": "Child (girl)",
+    "example": "La nena dibuixa molt bé.",
+    "exampleTranslation": "The girl draws very well."
+  },
+  {
+    "word": "Gent",
+    "translation": "People",
+    "example": "Hi ha molta gent al carrer.",
+    "exampleTranslation": "There are many people in the street."
+  },
+  {
+    "word": "Veí",
+    "translation": "Neighbor",
+    "example": "El veí sempre em saluda.",
+    "exampleTranslation": "The neighbor always greets me."
+  },
+  {
+    "word": "Casa",
+    "translation": "House / Home",
+    "example": "La meva casa té tres habitacions.",
+    "exampleTranslation": "My house has three bedrooms."
+  },
+  {
+    "word": "Carrer",
+    "translation": "Street",
+    "example": "El carrer és molt tranquil.",
+    "exampleTranslation": "The street is very quiet."
+  },
+  {
+    "word": "Plaça",
+    "translation": "Square",
+    "example": "Quedem a la plaça a les cinc.",
+    "exampleTranslation": "Let's meet at the square at five."
+  },
+  {
+    "word": "Ciutat",
+    "translation": "City",
+    "example": "Barcelona és una ciutat preciosa.",
+    "exampleTranslation": "Barcelona is a beautiful city."
+  },
+  {
+    "word": "Poble",
+    "translation": "Town / Village",
+    "example": "El meu poble és a la muntanya.",
+    "exampleTranslation": "My village is in the mountain."
+  },
+  {
+    "word": "País",
+    "translation": "Country",
+    "example": "Espanya és un país molt divers.",
+    "exampleTranslation": "Spain is a very diverse country."
+  },
+  {
+    "word": "Platja",
+    "translation": "Beach",
+    "example": "Anem a la platja aquest cap de setmana?",
+    "exampleTranslation": "Shall we go to the beach this weekend?"
+  },
+  {
+    "word": "Muntanya",
+    "translation": "Mountain",
+    "example": "M'agrada fer senderisme a la muntanya.",
+    "exampleTranslation": "I like hiking in the mountain."
+  },
+  {
+    "word": "Mar",
+    "translation": "Sea",
+    "example": "El mar Mediterrani és preciós.",
+    "exampleTranslation": "The Mediterranean Sea is beautiful."
+  },
+  {
+    "word": "Riu",
+    "translation": "River",
+    "example": "El riu passa pel mig del poble.",
+    "exampleTranslation": "The river runs through the village."
+  },
+  {
+    "word": "Parc",
+    "translation": "Park",
+    "example": "Passegem pel parc cada tarda.",
+    "exampleTranslation": "We walk through the park every afternoon."
+  },
+  {
+    "word": "Esquerra",
+    "translation": "Left",
+    "example": "Gira a l'esquerra al semàfor.",
+    "exampleTranslation": "Turn left at the traffic light."
+  },
+  {
+    "word": "Dreta",
+    "translation": "Right",
+    "example": "El banc és a la dreta.",
+    "exampleTranslation": "The bank is on the right."
+  },
+  {
+    "word": "Recte",
+    "translation": "Straight",
+    "example": "Segueix recte fins al final.",
+    "exampleTranslation": "Go straight until the end."
+  },
+  {
+    "word": "A prop",
+    "translation": "Near / Close",
+    "example": "L'estació és a prop d'aquí.",
+    "exampleTranslation": "The station is near here."
+  },
+  {
+    "word": "Lluny",
+    "translation": "Far",
+    "example": "L'aeroport és lluny del centre.",
+    "exampleTranslation": "The airport is far from the center."
+  },
+  {
+    "word": "Aquí",
+    "translation": "Here",
+    "example": "El restaurant és aquí mateix.",
+    "exampleTranslation": "The restaurant is right here."
+  },
+  {
+    "word": "Allà",
+    "translation": "There",
+    "example": "La botiga és allà, al final del carrer.",
+    "exampleTranslation": "The shop is there, at the end of the street."
+  },
+  {
+    "word": "Davant",
+    "translation": "In front of",
+    "example": "L'autobús para davant de l'hotel.",
+    "exampleTranslation": "The bus stops in front of the hotel."
+  },
+  {
+    "word": "Darrere",
+    "translation": "Behind",
+    "example": "El pàrquing és darrere l'edifici.",
+    "exampleTranslation": "The parking is behind the building."
+  },
+  {
+    "word": "Centre",
+    "translation": "Center / Downtown",
+    "example": "Visc al centre de la ciutat.",
+    "exampleTranslation": "I live in the city center."
+  },
+  {
+    "word": "Cantonada",
+    "translation": "Corner",
+    "example": "Hi ha una farmàcia a la cantonada.",
+    "exampleTranslation": "There's a pharmacy at the corner."
+  },
+  {
+    "word": "Banc",
+    "translation": "Bank",
+    "example": "He d'anar al banc a treure diners.",
+    "exampleTranslation": "I need to go to the bank to withdraw money."
+  },
+  {
+    "word": "Hospital",
+    "translation": "Hospital",
+    "example": "L'hospital és a cinc minuts.",
+    "exampleTranslation": "The hospital is five minutes away."
+  },
+  {
+    "word": "Escola",
+    "translation": "School",
+    "example": "L'escola dels nens és aquí a prop.",
+    "exampleTranslation": "The children's school is nearby."
+  },
+  {
+    "word": "Sol",
+    "translation": "Sun",
+    "example": "Avui fa molt sol.",
+    "exampleTranslation": "Today it's very sunny."
+  },
+  {
+    "word": "Pluja",
+    "translation": "Rain",
+    "example": "Porta paraigua, hi ha pluja.",
+    "exampleTranslation": "Bring an umbrella, there's rain."
+  },
+  {
+    "word": "Núvol",
+    "translation": "Cloud",
+    "example": "El cel està ple de núvols.",
+    "exampleTranslation": "The sky is full of clouds."
+  },
+  {
+    "word": "Vent",
+    "translation": "Wind",
+    "example": "Avui fa molt vent a la costa.",
+    "exampleTranslation": "Today it's very windy on the coast."
+  },
+  {
+    "word": "Neu",
+    "translation": "Snow",
+    "example": "A l'hivern cau neu a la muntanya.",
+    "exampleTranslation": "In winter it snows in the mountain."
+  },
+  {
+    "word": "Cel",
+    "translation": "Sky",
+    "example": "El cel és blau i net avui.",
+    "exampleTranslation": "The sky is blue and clear today."
+  },
+  {
+    "word": "Temps",
+    "translation": "Weather / Time",
+    "example": "Quin temps farà demà?",
+    "exampleTranslation": "What will the weather be like tomorrow?"
+  },
+  {
+    "word": "Fred",
+    "translation": "Cold",
+    "example": "A l'hivern fa molt fred.",
+    "exampleTranslation": "In winter it's very cold."
+  },
+  {
+    "word": "Calor",
+    "translation": "Heat / Hot",
+    "example": "A l'agost fa molta calor.",
+    "exampleTranslation": "In August it's very hot."
+  },
+  {
+    "word": "Primavera",
+    "translation": "Spring",
+    "example": "La primavera és la meva estació preferida.",
+    "exampleTranslation": "Spring is my favorite season."
+  },
+  {
+    "word": "Estiu",
+    "translation": "Summer",
+    "example": "A l'estiu anem de vacances.",
+    "exampleTranslation": "In summer we go on vacation."
+  },
+  {
+    "word": "Tardor",
+    "translation": "Autumn / Fall",
+    "example": "A la tardor cauen les fulles.",
+    "exampleTranslation": "In autumn the leaves fall."
+  },
+  {
+    "word": "Hivern",
+    "translation": "Winter",
+    "example": "L'hivern és l'estació més freda.",
+    "exampleTranslation": "Winter is the coldest season."
+  },
+  {
+    "word": "Arbre",
+    "translation": "Tree",
+    "example": "Hi ha un arbre molt gran al jardí.",
+    "exampleTranslation": "There's a very big tree in the garden."
+  },
+  {
+    "word": "Flor",
+    "translation": "Flower",
+    "example": "Les flors del jardí són precioses.",
+    "exampleTranslation": "The flowers in the garden are beautiful."
+  },
+  {
+    "word": "Bosc",
+    "translation": "Forest",
+    "example": "M'agrada passejar pel bosc.",
+    "exampleTranslation": "I like walking through the forest."
+  },
+  {
+    "word": "Lluna",
+    "translation": "Moon",
+    "example": "La lluna plena és aquesta nit.",
+    "exampleTranslation": "The full moon is tonight."
+  },
+  {
+    "word": "Estrella",
+    "translation": "Star",
+    "example": "El cel està ple d'estrelles.",
+    "exampleTranslation": "The sky is full of stars."
+  },
+  {
+    "word": "Animal",
+    "translation": "Animal",
+    "example": "Tinc dos animals a casa, un gos i un gat.",
+    "exampleTranslation": "I have two animals at home, a dog and a cat."
+  },
+  {
+    "word": "Gos",
+    "translation": "Dog",
+    "example": "El meu gos es diu Max.",
+    "exampleTranslation": "My dog is called Max."
+  },
+  {
+    "word": "Gat",
+    "translation": "Cat",
+    "example": "El gat dorm al sofà.",
+    "exampleTranslation": "The cat sleeps on the sofa."
+  },
+  {
+    "word": "Ocell",
+    "translation": "Bird",
+    "example": "Els ocells canten al matí.",
+    "exampleTranslation": "The birds sing in the morning."
+  },
+  {
+    "word": "Terra",
+    "translation": "Earth / Ground",
+    "example": "La terra és humida per la pluja.",
+    "exampleTranslation": "The ground is wet from the rain."
+  },
+  {
+    "word": "Ser",
+    "translation": "To be (permanent)",
+    "example": "Soc de Barcelona, i tu?",
+    "exampleTranslation": "I'm from Barcelona, and you?"
+  },
+  {
+    "word": "Estar",
+    "translation": "To be (temporary)",
+    "example": "Estic cansat després de la feina.",
+    "exampleTranslation": "I'm tired after work."
+  },
+  {
+    "word": "Tenir",
+    "translation": "To have",
+    "example": "Tinc una reunió a les deu.",
+    "exampleTranslation": "I have a meeting at ten."
+  },
+  {
+    "word": "Anar",
+    "translation": "To go",
+    "example": "Vaig al supermercat, vols res?",
+    "exampleTranslation": "I'm going to the supermarket, do you want anything?"
+  },
+  {
+    "word": "Venir",
+    "translation": "To come",
+    "example": "Vens a sopar a casa meva?",
+    "exampleTranslation": "Are you coming to dinner at my house?"
+  },
+  {
+    "word": "Fer",
+    "translation": "To do / To make",
+    "example": "Què fas aquest cap de setmana?",
+    "exampleTranslation": "What are you doing this weekend?"
+  },
+  {
+    "word": "Voler",
+    "translation": "To want",
+    "example": "Vull aprendre català bé.",
+    "exampleTranslation": "I want to learn Catalan well."
+  },
+  {
+    "word": "Poder",
+    "translation": "To be able to / Can",
+    "example": "Pots ajudar-me, si us plau?",
+    "exampleTranslation": "Can you help me, please?"
+  },
+  {
+    "word": "Saber",
+    "translation": "To know (facts)",
+    "example": "Saps on és l'estació?",
+    "exampleTranslation": "Do you know where the station is?"
+  },
+  {
+    "word": "Conèixer",
+    "translation": "To know (people/places)",
+    "example": "Coneixes el meu germà?",
+    "exampleTranslation": "Do you know my brother?"
+  },
+  {
+    "word": "Parlar",
+    "translation": "To speak",
+    "example": "Parles anglès o francès?",
+    "exampleTranslation": "Do you speak English or French?"
+  },
+  {
+    "word": "Dir",
+    "translation": "To say / To tell",
+    "example": "Com es diu això en català?",
+    "exampleTranslation": "How do you say this in Catalan?"
+  },
+  {
+    "word": "Veure",
+    "translation": "To see",
+    "example": "Vols veure una pel·lícula?",
+    "exampleTranslation": "Do you want to see a movie?"
+  },
+  {
+    "word": "Escoltar",
+    "translation": "To listen",
+    "example": "M'agrada escoltar música catalana.",
+    "exampleTranslation": "I like listening to Catalan music."
+  },
+  {
+    "word": "Llegir",
+    "translation": "To read",
+    "example": "Llegeixo el diari cada matí.",
+    "exampleTranslation": "I read the newspaper every morning."
+  },
+  {
+    "word": "Escriure",
+    "translation": "To write",
+    "example": "Escric un correu als meus pares.",
+    "exampleTranslation": "I'm writing an email to my parents."
+  },
+  {
+    "word": "Entendre",
+    "translation": "To understand",
+    "example": "No entenc aquesta paraula.",
+    "exampleTranslation": "I don't understand this word."
+  },
+  {
+    "word": "Aprendre",
+    "translation": "To learn",
+    "example": "Aprenc català des de fa un any.",
+    "exampleTranslation": "I've been learning Catalan for a year."
+  },
+  {
+    "word": "Treballar",
+    "translation": "To work",
+    "example": "Treballo en una empresa de tecnologia.",
+    "exampleTranslation": "I work in a technology company."
+  },
+  {
+    "word": "Estudiar",
+    "translation": "To study",
+    "example": "Estudio economia a la universitat.",
+    "exampleTranslation": "I study economics at university."
+  },
+  {
+    "word": "Viure",
+    "translation": "To live",
+    "example": "Visc a Barcelona des de fa cinc anys.",
+    "exampleTranslation": "I've lived in Barcelona for five years."
+  },
+  {
+    "word": "Menjar",
+    "translation": "To eat",
+    "example": "Menjo fruita cada dia.",
+    "exampleTranslation": "I eat fruit every day."
+  },
+  {
+    "word": "Beure",
+    "translation": "To drink",
+    "example": "Bec molta aigua a l'estiu.",
+    "exampleTranslation": "I drink a lot of water in summer."
+  },
+  {
+    "word": "Dormir",
+    "translation": "To sleep",
+    "example": "Dormo set hores cada nit.",
+    "exampleTranslation": "I sleep seven hours every night."
+  },
+  {
+    "word": "Comprar",
+    "translation": "To buy",
+    "example": "Compro el pa a la fleca del barri.",
+    "exampleTranslation": "I buy bread at the neighborhood bakery."
+  },
+  {
+    "word": "Pagar",
+    "translation": "To pay",
+    "example": "Puc pagar amb targeta?",
+    "exampleTranslation": "Can I pay by card?"
+  },
+  {
+    "word": "Buscar",
+    "translation": "To look for",
+    "example": "Busco un pis de lloguer.",
+    "exampleTranslation": "I'm looking for a rental apartment."
+  },
+  {
+    "word": "Trobar",
+    "translation": "To find",
+    "example": "No trobo les meves claus.",
+    "exampleTranslation": "I can't find my keys."
+  },
+  {
+    "word": "Pensar",
+    "translation": "To think",
+    "example": "Penso que és una bona idea.",
+    "exampleTranslation": "I think it's a good idea."
+  },
+  {
+    "word": "Creure",
+    "translation": "To believe",
+    "example": "Crec que plourà demà.",
+    "exampleTranslation": "I believe it will rain tomorrow."
+  },
+  {
+    "word": "Sentir",
+    "translation": "To feel / To hear",
+    "example": "Em sento molt bé avui.",
+    "exampleTranslation": "I feel very good today."
+  },
+  {
+    "word": "Portar",
+    "translation": "To bring / To carry",
+    "example": "Porto el paraigua per si plou.",
+    "exampleTranslation": "I'm bringing the umbrella in case it rains."
+  },
+  {
+    "word": "Deixar",
+    "translation": "To leave / To let",
+    "example": "Deixo les claus a la taula.",
+    "exampleTranslation": "I leave the keys on the table."
+  },
+  {
+    "word": "Prendre",
+    "translation": "To take",
+    "example": "Prenc el metro per anar a la feina.",
+    "exampleTranslation": "I take the metro to go to work."
+  },
+  {
+    "word": "Donar",
+    "translation": "To give",
+    "example": "Et dono el meu número de telèfon.",
+    "exampleTranslation": "I'll give you my phone number."
+  },
+  {
+    "word": "Obrir",
+    "translation": "To open",
+    "example": "Pots obrir la finestra?",
+    "exampleTranslation": "Can you open the window?"
+  },
+  {
+    "word": "Tancar",
+    "translation": "To close",
+    "example": "Tanca la porta quan surtis.",
+    "exampleTranslation": "Close the door when you leave."
+  },
+  {
+    "word": "Esperar",
+    "translation": "To wait / To hope",
+    "example": "Espero el tren des de fa deu minuts.",
+    "exampleTranslation": "I've been waiting for the train for ten minutes."
+  },
+  {
+    "word": "Arribar",
+    "translation": "To arrive",
+    "example": "El tren arriba a les quatre.",
+    "exampleTranslation": "The train arrives at four."
+  },
+  {
+    "word": "Sortir",
+    "translation": "To go out / To leave",
+    "example": "Sortim a sopar aquest vespre?",
+    "exampleTranslation": "Shall we go out for dinner tonight?"
+  },
+  {
+    "word": "Tornar",
+    "translation": "To return",
+    "example": "Torno a casa a les set.",
+    "exampleTranslation": "I return home at seven."
+  },
+  {
+    "word": "Quedar",
+    "translation": "To meet / To stay",
+    "example": "Quedem a les vuit a la plaça?",
+    "exampleTranslation": "Shall we meet at eight in the square?"
+  },
+  {
+    "word": "Canviar",
+    "translation": "To change",
+    "example": "Vull canviar la reserva d'hotel.",
+    "exampleTranslation": "I want to change the hotel reservation."
+  },
+  {
+    "word": "Necessitar",
+    "translation": "To need",
+    "example": "Necessito ajuda amb les maletes.",
+    "exampleTranslation": "I need help with the suitcases."
+  },
+  {
+    "word": "Agradar",
+    "translation": "To like",
+    "example": "M'agrada molt la música catalana.",
+    "exampleTranslation": "I really like Catalan music."
+  },
+  {
+    "word": "Preferir",
+    "translation": "To prefer",
+    "example": "Prefereixo viatjar en tren.",
+    "exampleTranslation": "I prefer to travel by train."
+  },
+  {
+    "word": "Semblar",
+    "translation": "To seem",
+    "example": "Sembla que farà bon temps.",
+    "exampleTranslation": "It seems like the weather will be nice."
+  },
+  {
+    "word": "Passar",
+    "translation": "To pass / To happen",
+    "example": "Què passa? Estàs bé?",
+    "exampleTranslation": "What's happening? Are you okay?"
+  },
+  {
+    "word": "Començar",
+    "translation": "To begin / To start",
+    "example": "La classe comença a les nou.",
+    "exampleTranslation": "The class starts at nine."
+  },
+  {
+    "word": "Acabar",
+    "translation": "To finish",
+    "example": "Acabo la feina a les sis.",
+    "exampleTranslation": "I finish work at six."
+  },
+  {
+    "word": "Gran",
+    "translation": "Big / Large / Old",
+    "example": "Visc en una casa gran.",
+    "exampleTranslation": "I live in a big house."
+  },
+  {
+    "word": "Petit",
+    "translation": "Small / Little",
+    "example": "El meu pis és petit però acollidor.",
+    "exampleTranslation": "My apartment is small but cozy."
+  },
+  {
+    "word": "Bonic",
+    "translation": "Beautiful / Pretty",
+    "example": "Quina vista més bonica!",
+    "exampleTranslation": "What a beautiful view!"
+  },
+  {
+    "word": "Lleig",
+    "translation": "Ugly",
+    "example": "Aquest edifici és una mica lleig.",
+    "exampleTranslation": "This building is a bit ugly."
+  },
+  {
+    "word": "Nou",
+    "translation": "New",
+    "example": "Tinc un cotxe nou.",
+    "exampleTranslation": "I have a new car."
+  },
+  {
+    "word": "Vell",
+    "translation": "Old",
+    "example": "Aquesta església és molt vella.",
+    "exampleTranslation": "This church is very old."
+  },
+  {
+    "word": "Jove",
+    "translation": "Young",
+    "example": "És un professor molt jove.",
+    "exampleTranslation": "He's a very young teacher."
+  },
+  {
+    "word": "Bo",
+    "translation": "Good",
+    "example": "Aquest restaurant és molt bo.",
+    "exampleTranslation": "This restaurant is very good."
+  },
+  {
+    "word": "Dolent",
+    "translation": "Bad",
+    "example": "El temps avui és dolent.",
+    "exampleTranslation": "The weather today is bad."
+  },
+  {
+    "word": "Fàcil",
+    "translation": "Easy",
+    "example": "L'exercici és força fàcil.",
+    "exampleTranslation": "The exercise is quite easy."
+  },
+  {
+    "word": "Difícil",
+    "translation": "Difficult",
+    "example": "El català és difícil al principi.",
+    "exampleTranslation": "Catalan is difficult at first."
+  },
+  {
+    "word": "Ràpid",
+    "translation": "Fast",
+    "example": "El tren és molt ràpid.",
+    "exampleTranslation": "The train is very fast."
+  },
+  {
+    "word": "Lent",
+    "translation": "Slow",
+    "example": "El servei del restaurant és lent.",
+    "exampleTranslation": "The restaurant service is slow."
+  },
+  {
+    "word": "Alt",
+    "translation": "Tall / High",
+    "example": "El meu germà és molt alt.",
+    "exampleTranslation": "My brother is very tall."
+  },
+  {
+    "word": "Baix",
+    "translation": "Short / Low",
+    "example": "El sostre és molt baix.",
+    "exampleTranslation": "The ceiling is very low."
+  },
+  {
+    "word": "Llarg",
+    "translation": "Long",
+    "example": "El viatge és molt llarg.",
+    "exampleTranslation": "The journey is very long."
+  },
+  {
+    "word": "Curt",
+    "translation": "Short (length)",
+    "example": "La pel·lícula és bastant curta.",
+    "exampleTranslation": "The movie is quite short."
+  },
+  {
+    "word": "Ample",
+    "translation": "Wide",
+    "example": "El carrer és molt ample.",
+    "exampleTranslation": "The street is very wide."
+  },
+  {
+    "word": "Estret",
+    "translation": "Narrow",
+    "example": "Les escales són massa estretes.",
+    "exampleTranslation": "The stairs are too narrow."
+  },
+  {
+    "word": "Calent",
+    "translation": "Hot (temperature)",
+    "example": "El cafè està molt calent.",
+    "exampleTranslation": "The coffee is very hot."
+  },
+  {
+    "word": "Content",
+    "translation": "Happy",
+    "example": "Estic content amb els resultats.",
+    "exampleTranslation": "I'm happy with the results."
+  },
+  {
+    "word": "Trist",
+    "translation": "Sad",
+    "example": "Estic trist perquè plou.",
+    "exampleTranslation": "I'm sad because it's raining."
+  },
+  {
+    "word": "Cansat",
+    "translation": "Tired",
+    "example": "Estic cansat, he treballat molt.",
+    "exampleTranslation": "I'm tired, I've worked a lot."
+  },
+  {
+    "word": "Malalt",
+    "translation": "Sick",
+    "example": "No vinc, estic malalt.",
+    "exampleTranslation": "I'm not coming, I'm sick."
+  },
+  {
+    "word": "Sa",
+    "translation": "Healthy",
+    "example": "El menjar mediterrani és molt sa.",
+    "exampleTranslation": "Mediterranean food is very healthy."
+  },
+  {
+    "word": "Important",
+    "translation": "Important",
+    "example": "Tinc una reunió molt important.",
+    "exampleTranslation": "I have a very important meeting."
+  },
+  {
+    "word": "Interessant",
+    "translation": "Interesting",
+    "example": "El llibre és molt interessant.",
+    "exampleTranslation": "The book is very interesting."
+  },
+  {
+    "word": "Divertit",
+    "translation": "Fun / Funny",
+    "example": "La festa va ser molt divertida.",
+    "exampleTranslation": "The party was a lot of fun."
+  },
+  {
+    "word": "Avorrit",
+    "translation": "Boring / Bored",
+    "example": "La conferència era avorrida.",
+    "exampleTranslation": "The conference was boring."
+  },
+  {
+    "word": "Obert",
+    "translation": "Open",
+    "example": "La botiga és oberta fins a les nou.",
+    "exampleTranslation": "The shop is open until nine."
+  },
+  {
+    "word": "Tancat",
+    "translation": "Closed",
+    "example": "El museu és tancat els dilluns.",
+    "exampleTranslation": "The museum is closed on Mondays."
+  },
+  {
+    "word": "Ple",
+    "translation": "Full",
+    "example": "El restaurant està ple, hem d'esperar.",
+    "exampleTranslation": "The restaurant is full, we have to wait."
+  },
+  {
+    "word": "Buit",
+    "translation": "Empty",
+    "example": "L'ampolla és buida.",
+    "exampleTranslation": "The bottle is empty."
+  },
+  {
+    "word": "Correcte",
+    "translation": "Correct",
+    "example": "La teva resposta és correcta.",
+    "exampleTranslation": "Your answer is correct."
+  },
+  {
+    "word": "Preu",
+    "translation": "Price",
+    "example": "Quin és el preu d'aquesta samarreta?",
+    "exampleTranslation": "What is the price of this t-shirt?"
+  },
+  {
+    "word": "Barat",
+    "translation": "Cheap",
+    "example": "Aquest restaurant és barat i bo.",
+    "exampleTranslation": "This restaurant is cheap and good."
+  },
+  {
+    "word": "Car",
+    "translation": "Expensive",
+    "example": "Viure a Barcelona és car.",
+    "exampleTranslation": "Living in Barcelona is expensive."
+  },
+  {
+    "word": "Botiga",
+    "translation": "Shop / Store",
+    "example": "La botiga obre a les deu.",
+    "exampleTranslation": "The shop opens at ten."
+  },
+  {
+    "word": "Supermercat",
+    "translation": "Supermarket",
+    "example": "Vaig al supermercat a comprar llet.",
+    "exampleTranslation": "I'm going to the supermarket to buy milk."
+  },
+  {
+    "word": "Mercat",
+    "translation": "Market",
+    "example": "El mercat té productes frescos.",
+    "exampleTranslation": "The market has fresh products."
+  },
+  {
+    "word": "Diners",
+    "translation": "Money",
+    "example": "No porto prou diners en efectiu.",
+    "exampleTranslation": "I don't have enough cash."
+  },
+  {
+    "word": "Targeta",
+    "translation": "Card",
+    "example": "Puc pagar amb targeta de crèdit?",
+    "exampleTranslation": "Can I pay with a credit card?"
+  },
+  {
+    "word": "Efectiu",
+    "translation": "Cash",
+    "example": "Només accepten pagament en efectiu.",
+    "exampleTranslation": "They only accept cash payment."
+  },
+  {
+    "word": "Descompte",
+    "translation": "Discount",
+    "example": "Tens descompte per a estudiants?",
+    "exampleTranslation": "Do you have a student discount?"
+  },
+  {
+    "word": "Rebuda",
+    "translation": "Receipt",
+    "example": "Puc tenir la rebuda, si us plau?",
+    "exampleTranslation": "Can I have the receipt, please?"
+  },
+  {
+    "word": "Canvi",
+    "translation": "Change",
+    "example": "Aquí tens el canvi.",
+    "exampleTranslation": "Here's your change."
+  },
+  {
+    "word": "Oferta",
+    "translation": "Offer / Sale",
+    "example": "Avui hi ha una oferta especial.",
+    "exampleTranslation": "Today there's a special offer."
+  },
+  {
+    "word": "Talla",
+    "translation": "Size",
+    "example": "Quina talla portes?",
+    "exampleTranslation": "What size do you wear?"
+  },
+  {
+    "word": "Provar",
+    "translation": "To try on",
+    "example": "Puc provar-me aquest vestit?",
+    "exampleTranslation": "Can I try on this dress?"
+  },
+  {
+    "word": "Vendre",
+    "translation": "To sell",
+    "example": "Aquí venen productes locals.",
+    "exampleTranslation": "They sell local products here."
+  },
+  {
+    "word": "Gastar",
+    "translation": "To spend",
+    "example": "He gastat massa en roba.",
+    "exampleTranslation": "I've spent too much on clothes."
+  },
+  {
+    "word": "Euro",
+    "translation": "Euro",
+    "example": "Costa vint euros en total.",
+    "exampleTranslation": "It costs twenty euros in total."
+  },
+  {
+    "word": "Tren",
+    "translation": "Train",
+    "example": "El tren surt de l'andana tres.",
+    "exampleTranslation": "The train leaves from platform three."
+  },
+  {
+    "word": "Cotxe",
+    "translation": "Car",
+    "example": "Prefereixo anar en cotxe.",
+    "exampleTranslation": "I prefer to go by car."
+  },
+  {
+    "word": "Autobús",
+    "translation": "Bus",
+    "example": "L'autobús arriba cada quinze minuts.",
+    "exampleTranslation": "The bus arrives every fifteen minutes."
+  },
+  {
+    "word": "Metro",
+    "translation": "Metro / Subway",
+    "example": "El metro és la manera més ràpida.",
+    "exampleTranslation": "The metro is the fastest way."
+  },
+  {
+    "word": "Avió",
+    "translation": "Airplane",
+    "example": "L'avió surt a les vuit del matí.",
+    "exampleTranslation": "The plane leaves at eight in the morning."
+  },
+  {
+    "word": "Aeroport",
+    "translation": "Airport",
+    "example": "L'aeroport és a vint quilòmetres.",
+    "exampleTranslation": "The airport is twenty kilometers away."
+  },
+  {
+    "word": "Estació",
+    "translation": "Station",
+    "example": "L'estació de tren és al centre.",
+    "exampleTranslation": "The train station is in the center."
+  },
+  {
+    "word": "Bitllet",
+    "translation": "Ticket",
+    "example": "On puc comprar el bitllet?",
+    "exampleTranslation": "Where can I buy the ticket?"
+  },
+  {
+    "word": "Reserva",
+    "translation": "Reservation",
+    "example": "Tinc una reserva a nom de García.",
+    "exampleTranslation": "I have a reservation under the name García."
+  },
+  {
+    "word": "Viatjar",
+    "translation": "To travel",
+    "example": "M'encanta viatjar per Europa.",
+    "exampleTranslation": "I love traveling around Europe."
+  },
+  {
+    "word": "Viatge",
+    "translation": "Trip / Journey",
+    "example": "El viatge dura dues hores.",
+    "exampleTranslation": "The trip lasts two hours."
+  },
+  {
+    "word": "Maleta",
+    "translation": "Suitcase",
+    "example": "Porto una maleta petita.",
+    "exampleTranslation": "I'm bringing a small suitcase."
+  },
+  {
+    "word": "Passaport",
+    "translation": "Passport",
+    "example": "No oblidis el passaport!",
+    "exampleTranslation": "Don't forget the passport!"
+  },
+  {
+    "word": "Hotel",
+    "translation": "Hotel",
+    "example": "L'hotel està a prop de la platja.",
+    "exampleTranslation": "The hotel is near the beach."
+  },
+  {
+    "word": "Habitació",
+    "translation": "Room",
+    "example": "Vull una habitació amb vistes al mar.",
+    "exampleTranslation": "I want a room with sea views."
+  },
+  {
+    "word": "Taxi",
+    "translation": "Taxi",
+    "example": "Podem agafar un taxi a l'hotel.",
+    "exampleTranslation": "We can take a taxi to the hotel."
+  },
+  {
+    "word": "Bicicleta",
+    "translation": "Bicycle",
+    "example": "Llogo una bicicleta per passejar.",
+    "exampleTranslation": "I rent a bicycle to go for a ride."
+  },
+  {
+    "word": "Vaixell",
+    "translation": "Ship / Boat",
+    "example": "El vaixell surt del port a les set.",
+    "exampleTranslation": "The ship leaves the port at seven."
+  },
+  {
+    "word": "Port",
+    "translation": "Port / Harbor",
+    "example": "El port de Barcelona és molt gran.",
+    "exampleTranslation": "The port of Barcelona is very big."
+  },
+  {
+    "word": "Turista",
+    "translation": "Tourist",
+    "example": "Hi ha molts turistes a l'estiu.",
+    "exampleTranslation": "There are many tourists in summer."
+  },
+  {
+    "word": "Mapa",
+    "translation": "Map",
+    "example": "Tens un mapa de la ciutat?",
+    "exampleTranslation": "Do you have a map of the city?"
+  },
+  {
+    "word": "Sortida",
+    "translation": "Exit / Departure",
+    "example": "La sortida és per aquí.",
+    "exampleTranslation": "The exit is this way."
+  },
+  {
+    "word": "Arribada",
+    "translation": "Arrival",
+    "example": "L'hora d'arribada és a les tres.",
+    "exampleTranslation": "The arrival time is at three."
+  },
+  {
+    "word": "Conduir",
+    "translation": "To drive",
+    "example": "No m'agrada conduir de nit.",
+    "exampleTranslation": "I don't like driving at night."
+  },
+  {
+    "word": "Llit",
+    "translation": "Bed",
+    "example": "El llit és molt còmode.",
+    "exampleTranslation": "The bed is very comfortable."
+  },
+  {
+    "word": "Taula",
+    "translation": "Table",
+    "example": "La taula és al menjador.",
+    "exampleTranslation": "The table is in the dining room."
+  },
+  {
+    "word": "Cadira",
+    "translation": "Chair",
+    "example": "Necessitem una cadira més.",
+    "exampleTranslation": "We need one more chair."
+  },
+  {
+    "word": "Porta",
+    "translation": "Door",
+    "example": "Algú truca a la porta.",
+    "exampleTranslation": "Someone is knocking at the door."
+  },
+  {
+    "word": "Finestra",
+    "translation": "Window",
+    "example": "Obre la finestra, fa calor.",
+    "exampleTranslation": "Open the window, it's hot."
+  },
+  {
+    "word": "Sofà",
+    "translation": "Sofa",
+    "example": "El sofà és molt còmode per llegir.",
+    "exampleTranslation": "The sofa is very comfortable for reading."
+  },
+  {
+    "word": "Armari",
+    "translation": "Wardrobe / Closet",
+    "example": "L'armari és ple de roba.",
+    "exampleTranslation": "The wardrobe is full of clothes."
+  },
+  {
+    "word": "Cuina",
+    "translation": "Kitchen",
+    "example": "La cuina és petita però funcional.",
+    "exampleTranslation": "The kitchen is small but functional."
+  },
+  {
+    "word": "Bany",
+    "translation": "Bathroom",
+    "example": "El bany és al final del passadís.",
+    "exampleTranslation": "The bathroom is at the end of the hallway."
+  },
+  {
+    "word": "Menjador",
+    "translation": "Dining room",
+    "example": "Dinem al menjador tots junts.",
+    "exampleTranslation": "We have lunch together in the dining room."
+  },
+  {
+    "word": "Sala",
+    "translation": "Living room",
+    "example": "Mirem la tele a la sala.",
+    "exampleTranslation": "We watch TV in the living room."
+  },
+  {
+    "word": "Jardí",
+    "translation": "Garden",
+    "example": "El jardí té moltes flors.",
+    "exampleTranslation": "The garden has many flowers."
+  },
+  {
+    "word": "Balcó",
+    "translation": "Balcony",
+    "example": "Prenc el sol al balcó.",
+    "exampleTranslation": "I sunbathe on the balcony."
+  },
+  {
+    "word": "Escala",
+    "translation": "Stairs",
+    "example": "Pujo per l'escala fins al tercer pis.",
+    "exampleTranslation": "I go up the stairs to the third floor."
+  },
+  {
+    "word": "Ascensor",
+    "translation": "Elevator",
+    "example": "L'edifici no té ascensor.",
+    "exampleTranslation": "The building doesn't have an elevator."
+  },
+  {
+    "word": "Pis",
+    "translation": "Apartment / Floor",
+    "example": "Visc en un pis al segon pis.",
+    "exampleTranslation": "I live in an apartment on the second floor."
+  },
+  {
+    "word": "Clau",
+    "translation": "Key",
+    "example": "He perdut les claus de casa.",
+    "exampleTranslation": "I've lost my house keys."
+  },
+  {
+    "word": "Llum",
+    "translation": "Light",
+    "example": "Encén el llum, si us plau.",
+    "exampleTranslation": "Turn on the light, please."
+  },
+  {
+    "word": "Nevera",
+    "translation": "Refrigerator",
+    "example": "Posa la llet a la nevera.",
+    "exampleTranslation": "Put the milk in the fridge."
+  },
+  {
+    "word": "Televisió",
+    "translation": "Television",
+    "example": "No miro gaire la televisió.",
+    "exampleTranslation": "I don't watch much television."
+  },
+  {
+    "word": "Ordinador",
+    "translation": "Computer",
+    "example": "Treballo amb l'ordinador tot el dia.",
+    "exampleTranslation": "I work with the computer all day."
+  },
+  {
+    "word": "Telèfon",
+    "translation": "Phone",
+    "example": "No trobo el meu telèfon mòbil.",
+    "exampleTranslation": "I can't find my mobile phone."
+  },
+  {
+    "word": "Mirall",
+    "translation": "Mirror",
+    "example": "Hi ha un mirall al bany.",
+    "exampleTranslation": "There's a mirror in the bathroom."
+  },
+  {
+    "word": "Coixí",
+    "translation": "Pillow",
+    "example": "Necessito un altre coixí per dormir.",
+    "exampleTranslation": "I need another pillow to sleep."
+  },
+  {
+    "word": "Manta",
+    "translation": "Blanket",
+    "example": "Porta una manta, fa fred.",
+    "exampleTranslation": "Bring a blanket, it's cold."
+  },
+  {
+    "word": "Tovallola",
+    "translation": "Towel",
+    "example": "Les tovalloles són a l'armari.",
+    "exampleTranslation": "The towels are in the closet."
+  },
+  {
+    "word": "Sabó",
+    "translation": "Soap",
+    "example": "No queda sabó al bany.",
+    "exampleTranslation": "There's no soap left in the bathroom."
+  },
+  {
+    "word": "Plat",
+    "translation": "Plate / Dish",
+    "example": "Posa els plats a la taula.",
+    "exampleTranslation": "Put the plates on the table."
+  },
+  {
+    "word": "Got",
+    "translation": "Glass",
+    "example": "Vols un got d'aigua?",
+    "exampleTranslation": "Do you want a glass of water?"
+  },
+  {
+    "word": "Quant costa?",
+    "translation": "How much does it cost?",
+    "example": "Quant costa aquest jersei?",
+    "exampleTranslation": "How much does this sweater cost?"
+  },
+  {
+    "word": "On és...?",
+    "translation": "Where is...?",
+    "example": "On és la parada de metro?",
+    "exampleTranslation": "Where is the metro stop?"
+  },
+  {
+    "word": "No entenc",
+    "translation": "I don't understand",
+    "example": "Ho sento, no entenc el que dius.",
+    "exampleTranslation": "Sorry, I don't understand what you're saying."
+  },
+  {
+    "word": "Parla anglès?",
+    "translation": "Do you speak English?",
+    "example": "Disculpi, parla anglès?",
+    "exampleTranslation": "Excuse me, do you speak English?"
+  },
+  {
+    "word": "Pot repetir?",
+    "translation": "Can you repeat?",
+    "example": "Pot repetir més a poc a poc?",
+    "exampleTranslation": "Can you repeat more slowly?"
+  },
+  {
+    "word": "Com es diu?",
+    "translation": "What is it called?",
+    "example": "Com es diu això en català?",
+    "exampleTranslation": "What is this called in Catalan?"
+  },
+  {
+    "word": "M'agradaria",
+    "translation": "I would like",
+    "example": "M'agradaria un cafè amb llet.",
+    "exampleTranslation": "I would like a coffee with milk."
+  },
+  {
+    "word": "Podria...",
+    "translation": "Could you...",
+    "example": "Podria ajudar-me, si us plau?",
+    "exampleTranslation": "Could you help me, please?"
+  },
+  {
+    "word": "Tinc una pregunta",
+    "translation": "I have a question",
+    "example": "Disculpi, tinc una pregunta.",
+    "exampleTranslation": "Excuse me, I have a question."
+  },
+  {
+    "word": "No ho sé",
+    "translation": "I don't know",
+    "example": "No ho sé, ho sento.",
+    "exampleTranslation": "I don't know, I'm sorry."
+  },
+  {
+    "word": "Pot ajudar-me?",
+    "translation": "Can you help me?",
+    "example": "Pot ajudar-me a trobar l'hotel?",
+    "exampleTranslation": "Can you help me find the hotel?"
+  },
+  {
+    "word": "Què vol dir?",
+    "translation": "What does it mean?",
+    "example": "Què vol dir aquesta paraula?",
+    "exampleTranslation": "What does this word mean?"
+  },
+  {
+    "word": "D'on ets?",
+    "translation": "Where are you from?",
+    "example": "D'on ets? Soc d'Anglaterra.",
+    "exampleTranslation": "Where are you from? I'm from England."
+  },
+  {
+    "word": "Quants anys tens?",
+    "translation": "How old are you?",
+    "example": "Quants anys tens? Tinc vint-i-cinc.",
+    "exampleTranslation": "How old are you? I'm twenty-five."
+  },
+  {
+    "word": "On vius?",
+    "translation": "Where do you live?",
+    "example": "On vius? Visc a Barcelona.",
+    "exampleTranslation": "Where do you live? I live in Barcelona."
+  },
+  {
+    "word": "Què fas?",
+    "translation": "What do you do?",
+    "example": "Què fas? Soc professor.",
+    "exampleTranslation": "What do you do? I'm a teacher."
+  },
+  {
+    "word": "A quina hora?",
+    "translation": "At what time?",
+    "example": "A quina hora surt el tren?",
+    "exampleTranslation": "At what time does the train leave?"
+  },
+  {
+    "word": "Per què?",
+    "translation": "Why?",
+    "example": "Per què no véns a la festa?",
+    "exampleTranslation": "Why aren't you coming to the party?"
+  },
+  {
+    "word": "Com?",
+    "translation": "How?",
+    "example": "Com vaig a l'estació?",
+    "exampleTranslation": "How do I get to the station?"
+  },
+  {
+    "word": "Què?",
+    "translation": "What?",
+    "example": "Què has dit? No t'he sentit.",
+    "exampleTranslation": "What did you say? I didn't hear you."
+  },
+  {
+    "word": "Quin/Quina?",
+    "translation": "Which?",
+    "example": "Quin és el teu plat preferit?",
+    "exampleTranslation": "Which is your favorite dish?"
+  },
+  {
+    "word": "Necessito ajuda",
+    "translation": "I need help",
+    "example": "Necessito ajuda amb la direcció.",
+    "exampleTranslation": "I need help with the address."
+  },
+  {
+    "word": "Em pot indicar?",
+    "translation": "Can you show me?",
+    "example": "Em pot indicar com arribar-hi?",
+    "exampleTranslation": "Can you show me how to get there?"
+  },
+  {
+    "word": "És possible?",
+    "translation": "Is it possible?",
+    "example": "És possible canviar la reserva?",
+    "exampleTranslation": "Is it possible to change the reservation?"
+  },
+  {
+    "word": "Estic perdut",
+    "translation": "I'm lost",
+    "example": "Estic perdut, on és el centre?",
+    "exampleTranslation": "I'm lost, where is the center?"
+  },
+  {
+    "word": "Em fa mal",
+    "translation": "It hurts me",
+    "example": "Em fa mal el cap.",
+    "exampleTranslation": "My head hurts."
+  },
+  {
+    "word": "Tinc al·lèrgia",
+    "translation": "I have an allergy",
+    "example": "Tinc al·lèrgia als fruits secs.",
+    "exampleTranslation": "I have an allergy to nuts."
+  },
+  {
+    "word": "On puc trobar?",
+    "translation": "Where can I find?",
+    "example": "On puc trobar una farmàcia?",
+    "exampleTranslation": "Where can I find a pharmacy?"
+  },
+  {
+    "word": "Farmàcia",
+    "translation": "Pharmacy",
+    "example": "Hi ha una farmàcia a prop d'aquí?",
+    "exampleTranslation": "Is there a pharmacy near here?"
+  },
+  {
+    "word": "Metge",
+    "translation": "Doctor",
+    "example": "Necessito veure un metge.",
+    "exampleTranslation": "I need to see a doctor."
+  },
+  {
+    "word": "Urgències",
+    "translation": "Emergency room",
+    "example": "On és la sala d'urgències?",
+    "exampleTranslation": "Where is the emergency room?"
+  },
+  {
+    "word": "Policia",
+    "translation": "Police",
+    "example": "He de trucar a la policia.",
+    "exampleTranslation": "I need to call the police."
+  },
+  {
+    "word": "Ajuda!",
+    "translation": "Help!",
+    "example": "Ajuda! Necessito un metge!",
+    "exampleTranslation": "Help! I need a doctor!"
+  },
+  {
+    "word": "Llibre",
+    "translation": "Book",
+    "example": "Estic llegint un llibre interessant.",
+    "exampleTranslation": "I'm reading an interesting book."
+  },
+  {
+    "word": "Revista",
+    "translation": "Magazine",
+    "example": "Compro una revista a l'aeroport.",
+    "exampleTranslation": "I buy a magazine at the airport."
+  },
+  {
+    "word": "Diari",
+    "translation": "Newspaper",
+    "example": "Llegeixo el diari al matí.",
+    "exampleTranslation": "I read the newspaper in the morning."
+  },
+  {
+    "word": "Música",
+    "translation": "Music",
+    "example": "M'agrada la música tradicional catalana.",
+    "exampleTranslation": "I like traditional Catalan music."
+  },
+  {
+    "word": "Pel·lícula",
+    "translation": "Movie / Film",
+    "example": "Vols veure una pel·lícula aquesta nit?",
+    "exampleTranslation": "Do you want to watch a movie tonight?"
+  },
+  {
+    "word": "Festa",
+    "translation": "Party",
+    "example": "Hi ha una festa al poble demà.",
+    "exampleTranslation": "There's a party in the village tomorrow."
+  },
+  {
+    "word": "Esport",
+    "translation": "Sport",
+    "example": "L'esport és bo per a la salut.",
+    "exampleTranslation": "Sport is good for health."
+  },
+  {
+    "word": "Futbol",
+    "translation": "Football / Soccer",
+    "example": "El Barça juga a futbol avui.",
+    "exampleTranslation": "Barca plays football today."
+  },
+  {
+    "word": "Natació",
+    "translation": "Swimming",
+    "example": "La natació és el meu esport preferit.",
+    "exampleTranslation": "Swimming is my favorite sport."
+  },
+  {
+    "word": "Córrer",
+    "translation": "To run",
+    "example": "Corro cada matí al parc.",
+    "exampleTranslation": "I run every morning in the park."
+  },
+  {
+    "word": "Caminar",
+    "translation": "To walk",
+    "example": "Camino mitja hora cada dia.",
+    "exampleTranslation": "I walk half an hour every day."
+  },
+  {
+    "word": "Ballar",
+    "translation": "To dance",
+    "example": "Saps ballar sardanes?",
+    "exampleTranslation": "Do you know how to dance sardanes?"
+  },
+  {
+    "word": "Cantar",
+    "translation": "To sing",
+    "example": "M'agrada cantar a la dutxa.",
+    "exampleTranslation": "I like singing in the shower."
+  }
+]
