@@ -6,12 +6,14 @@ import android.appwidget.AppWidgetProvider
 import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
+import android.util.Log
 import android.view.View
 import android.widget.RemoteViews
 
 class WordWidgetProvider : AppWidgetProvider() {
 
     companion object {
+        private const val TAG = "WordWidgetProvider"
         const val ACTION_TOGGLE = "com.cozyla.catalanword.TOGGLE_TRANSLATION"
         const val ACTION_REFRESH = "com.cozyla.catalanword.REFRESH"
         private const val PREFS_NAME = "CatalanWordWidget"
@@ -23,6 +25,7 @@ class WordWidgetProvider : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetIds: IntArray
     ) {
+        Log.d(TAG, "onUpdate called with ${appWidgetIds.size} widgets")
         for (appWidgetId in appWidgetIds) {
             updateWidget(context, appWidgetManager, appWidgetId)
         }
@@ -30,6 +33,7 @@ class WordWidgetProvider : AppWidgetProvider() {
 
     override fun onReceive(context: Context, intent: Intent) {
         super.onReceive(context, intent)
+        Log.d(TAG, "onReceive: ${intent.action}")
 
         when (intent.action) {
             ACTION_TOGGLE -> {
@@ -48,51 +52,59 @@ class WordWidgetProvider : AppWidgetProvider() {
         appWidgetManager: AppWidgetManager,
         appWidgetId: Int
     ) {
-        val views = RemoteViews(context.packageName, R.layout.widget_layout)
-        val repository = WordRepository(context)
-        val word = repository.getTodaysWord()
-        val showTranslation = getTranslationState(context)
+        try {
+            Log.d(TAG, "updateWidget for id: $appWidgetId")
+            val views = RemoteViews(context.packageName, R.layout.widget_layout)
+            val repository = WordRepository(context)
+            val word = repository.getTodaysWord()
+            val showTranslation = getTranslationState(context)
 
-        // Set word content
-        views.setTextViewText(R.id.catalan_word, word.word)
-        views.setTextViewText(R.id.english_word, word.translation)
-        views.setTextViewText(R.id.catalan_example, "\"${word.example}\"")
-        views.setTextViewText(R.id.english_example, "\"${word.exampleTranslation}\"")
+            Log.d(TAG, "Displaying word: ${word.word}")
 
-        // Toggle visibility based on state
-        val translationVisibility = if (showTranslation) View.VISIBLE else View.GONE
-        views.setViewVisibility(R.id.english_word, translationVisibility)
-        views.setViewVisibility(R.id.english_example, translationVisibility)
+            // Set word content
+            views.setTextViewText(R.id.catalan_word, word.word)
+            views.setTextViewText(R.id.english_word, word.translation)
+            views.setTextViewText(R.id.catalan_example, "\"${word.example}\"")
+            views.setTextViewText(R.id.english_example, "\"${word.exampleTranslation}\"")
 
-        // Update hint text
-        val hintText = if (showTranslation) {
-            context.getString(R.string.tap_to_hide)
-        } else {
-            context.getString(R.string.tap_to_reveal)
+            // Toggle visibility based on state
+            val translationVisibility = if (showTranslation) View.VISIBLE else View.GONE
+            views.setViewVisibility(R.id.english_word, translationVisibility)
+            views.setViewVisibility(R.id.english_example, translationVisibility)
+
+            // Update hint text
+            val hintText = if (showTranslation) {
+                context.getString(R.string.tap_to_hide)
+            } else {
+                context.getString(R.string.tap_to_reveal)
+            }
+            views.setTextViewText(R.id.hint_text, hintText)
+
+            // Set click listener for content area (toggle translation)
+            val toggleIntent = Intent(context, WordWidgetProvider::class.java).apply {
+                action = ACTION_TOGGLE
+            }
+            val togglePendingIntent = PendingIntent.getBroadcast(
+                context, 0, toggleIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+            )
+            views.setOnClickPendingIntent(R.id.content_area, togglePendingIntent)
+
+            // Set click listener for refresh button
+            val refreshIntent = Intent(context, WordWidgetProvider::class.java).apply {
+                action = ACTION_REFRESH
+            }
+            val refreshPendingIntent = PendingIntent.getBroadcast(
+                context, 1, refreshIntent,
+                PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
+            )
+            views.setOnClickPendingIntent(R.id.refresh_button, refreshPendingIntent)
+
+            appWidgetManager.updateAppWidget(appWidgetId, views)
+            Log.d(TAG, "Widget updated successfully")
+        } catch (e: Exception) {
+            Log.e(TAG, "Error updating widget", e)
         }
-        views.setTextViewText(R.id.hint_text, hintText)
-
-        // Set click listener for content area (toggle translation)
-        val toggleIntent = Intent(context, WordWidgetProvider::class.java).apply {
-            action = ACTION_TOGGLE
-        }
-        val togglePendingIntent = PendingIntent.getBroadcast(
-            context, 0, toggleIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-        )
-        views.setOnClickPendingIntent(R.id.content_area, togglePendingIntent)
-
-        // Set click listener for refresh button
-        val refreshIntent = Intent(context, WordWidgetProvider::class.java).apply {
-            action = ACTION_REFRESH
-        }
-        val refreshPendingIntent = PendingIntent.getBroadcast(
-            context, 1, refreshIntent,
-            PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
-        )
-        views.setOnClickPendingIntent(R.id.refresh_button, refreshPendingIntent)
-
-        appWidgetManager.updateAppWidget(appWidgetId, views)
     }
 
     private fun updateAllWidgets(context: Context) {
