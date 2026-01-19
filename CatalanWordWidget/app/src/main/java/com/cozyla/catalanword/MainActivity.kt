@@ -20,10 +20,15 @@ class MainActivity : Activity() {
         const val PREF_EXAMPLE_SIZE = "example_size"
         const val PREF_SHOW_EXAMPLES = "show_examples"
         const val PREF_DENSITY = "density"
+        const val PREF_HEADER_STYLE = "header_style"
 
         const val DENSITY_COMPACT = 0
         const val DENSITY_NORMAL = 1
         const val DENSITY_SPACIOUS = 2
+
+        const val HEADER_FULL = 0
+        const val HEADER_MINIMAL = 1
+        const val HEADER_HIDDEN = 2
     }
 
     private lateinit var wordSizeSeekbar: SeekBar
@@ -32,6 +37,7 @@ class MainActivity : Activity() {
     private lateinit var exampleSizeLabel: TextView
     private lateinit var showExamplesSwitch: Switch
     private lateinit var densityGroup: RadioGroup
+    private lateinit var headerStyleGroup: RadioGroup
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -43,6 +49,7 @@ class MainActivity : Activity() {
         exampleSizeLabel = findViewById(R.id.example_size_label)
         showExamplesSwitch = findViewById(R.id.show_examples_switch)
         densityGroup = findViewById(R.id.density_group)
+        headerStyleGroup = findViewById(R.id.header_style_group)
 
         loadSettings()
         setupListeners()
@@ -67,6 +74,13 @@ class MainActivity : Activity() {
             DENSITY_COMPACT -> densityGroup.check(R.id.density_compact)
             DENSITY_NORMAL -> densityGroup.check(R.id.density_normal)
             DENSITY_SPACIOUS -> densityGroup.check(R.id.density_spacious)
+        }
+
+        val headerStyle = prefs.getInt(PREF_HEADER_STYLE, HEADER_FULL)
+        when (headerStyle) {
+            HEADER_FULL -> headerStyleGroup.check(R.id.header_full)
+            HEADER_MINIMAL -> headerStyleGroup.check(R.id.header_minimal)
+            HEADER_HIDDEN -> headerStyleGroup.check(R.id.header_hidden)
         }
     }
 
@@ -124,6 +138,14 @@ class MainActivity : Activity() {
                 else -> DENSITY_COMPACT
             }
             putInt(PREF_DENSITY, density)
+
+            val headerStyle = when (headerStyleGroup.checkedRadioButtonId) {
+                R.id.header_full -> HEADER_FULL
+                R.id.header_minimal -> HEADER_MINIMAL
+                R.id.header_hidden -> HEADER_HIDDEN
+                else -> HEADER_FULL
+            }
+            putInt(PREF_HEADER_STYLE, headerStyle)
 
             apply()
         }

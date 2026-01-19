@@ -25,6 +25,12 @@ class WordWidgetProvider : AppWidgetProvider() {
         private const val PREF_WORD_SIZE = "word_size"
         private const val PREF_EXAMPLE_SIZE = "example_size"
         private const val PREF_SHOW_EXAMPLES = "show_examples"
+        private const val PREF_HEADER_STYLE = "header_style"
+
+        // Header style constants
+        private const val HEADER_FULL = 0
+        private const val HEADER_MINIMAL = 1
+        private const val HEADER_HIDDEN = 2
     }
 
     override fun onUpdate(
@@ -71,8 +77,9 @@ class WordWidgetProvider : AppWidgetProvider() {
             val wordSize = settingsPrefs.getInt(PREF_WORD_SIZE, 18)
             val exampleSize = settingsPrefs.getInt(PREF_EXAMPLE_SIZE, 10)
             val showExamples = settingsPrefs.getBoolean(PREF_SHOW_EXAMPLES, true)
+            val headerStyle = settingsPrefs.getInt(PREF_HEADER_STYLE, HEADER_FULL)
 
-            Log.d(TAG, "Settings: wordSize=$wordSize, exampleSize=$exampleSize, showExamples=$showExamples")
+            Log.d(TAG, "Settings: wordSize=$wordSize, exampleSize=$exampleSize, showExamples=$showExamples, headerStyle=$headerStyle")
             Log.d(TAG, "Displaying word: ${word.word}")
 
             // Set word content
@@ -97,6 +104,22 @@ class WordWidgetProvider : AppWidgetProvider() {
             views.setViewVisibility(R.id.catalan_example, if (showExamples) View.VISIBLE else View.GONE)
             views.setViewVisibility(R.id.hint_text, if (showExamples) View.VISIBLE else View.GONE)
 
+            // Apply header style
+            when (headerStyle) {
+                HEADER_FULL -> {
+                    views.setViewVisibility(R.id.header_full, View.VISIBLE)
+                    views.setViewVisibility(R.id.header_minimal, View.GONE)
+                }
+                HEADER_MINIMAL -> {
+                    views.setViewVisibility(R.id.header_full, View.GONE)
+                    views.setViewVisibility(R.id.header_minimal, View.VISIBLE)
+                }
+                HEADER_HIDDEN -> {
+                    views.setViewVisibility(R.id.header_full, View.GONE)
+                    views.setViewVisibility(R.id.header_minimal, View.GONE)
+                }
+            }
+
             // Update hint text
             val hintText = if (showTranslation) {
                 context.getString(R.string.tap_to_hide)
@@ -115,7 +138,7 @@ class WordWidgetProvider : AppWidgetProvider() {
             )
             views.setOnClickPendingIntent(R.id.content_area, togglePendingIntent)
 
-            // Set click listener for refresh button
+            // Set click listener for refresh buttons (both header variants)
             val refreshIntent = Intent(context, WordWidgetProvider::class.java).apply {
                 action = ACTION_REFRESH
             }
@@ -123,7 +146,8 @@ class WordWidgetProvider : AppWidgetProvider() {
                 context, 1, refreshIntent,
                 PendingIntent.FLAG_UPDATE_CURRENT or PendingIntent.FLAG_IMMUTABLE
             )
-            views.setOnClickPendingIntent(R.id.refresh_button, refreshPendingIntent)
+            views.setOnClickPendingIntent(R.id.refresh_button_full, refreshPendingIntent)
+            views.setOnClickPendingIntent(R.id.refresh_button_minimal, refreshPendingIntent)
 
             appWidgetManager.updateAppWidget(appWidgetId, views)
             Log.d(TAG, "Widget updated successfully")

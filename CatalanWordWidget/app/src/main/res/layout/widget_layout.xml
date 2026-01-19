@@ -7,8 +7,9 @@
     android:background="@drawable/widget_card"
     android:padding="6dp">
 
-    <!-- Compact Header Row -->
+    <!-- Full Header (with gradient) -->
     <LinearLayout
+        android:id="@+id/header_full"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
@@ -29,12 +30,43 @@
             android:textStyle="bold" />
 
         <TextView
-            android:id="@+id/refresh_button"
+            android:id="@+id/refresh_button_full"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="↻"
             android:textSize="14sp"
             android:textColor="@color/text_on_header" />
+
+    </LinearLayout>
+
+    <!-- Minimal Header (text only, no background) -->
+    <LinearLayout
+        android:id="@+id/header_minimal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:visibility="gone"
+        android:paddingStart="8dp"
+        android:paddingEnd="6dp"
+        android:paddingBottom="2dp">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="Paraula del Dia"
+            android:textSize="8sp"
+            android:textColor="@color/text_hint"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/refresh_button_minimal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="↻"
+            android:textSize="12sp"
+            android:textColor="@color/text_hint" />
 
     </LinearLayout>
 

@@ -27,6 +27,46 @@
             android:textColor="#6B7280"
             android:layout_marginBottom="24dp" />
 
+        <!-- Header Style -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Header Style"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/header_style_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/header_full"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Full (gradient background)"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/header_minimal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Minimal (text only)"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/header_hidden"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hidden (no header)"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
         <!-- Density Preset -->
         <TextView
             android:layout_width="wrap_content"
