@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp"
+    android:background="#F5F5F5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Catalan Word Widget"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Configure the widget appearance, then add it to your home screen."
+            android:textSize="14sp"
+            android:textColor="#6B7280"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Density Preset -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Layout Density"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/density_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="24dp">
+
+            <RadioButton
+                android:id="@+id/density_compact"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Compact (small spaces)"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/density_normal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Normal"
+                android:textSize="14sp" />
+
+            <RadioButton
+                android:id="@+id/density_spacious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Spacious (large widgets)"
+                android:textSize="14sp" />
+
+        </RadioGroup>
+
+        <!-- Word Size -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Word Size"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginBottom="8dp" />
+
+        <SeekBar
+            android:id="@+id/word_size_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:min="12"
+            android:max="40"
+            android:progress="18" />
+
+        <TextView
+            android:id="@+id/word_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="18sp"
+            android:textSize="12sp"
+            android:textColor="#6B7280"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Example Size -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Example Size"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#1A1A2E"
+            android:layout_marginBottom="8dp" />
+
+        <SeekBar
+            android:id="@+id/example_size_seekbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:min="8"
+            android:max="20"
+            android:progress="10" />
+
+        <TextView
+            android:id="@+id/example_size_label"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="10sp"
+            android:textSize="12sp"
+            android:textColor="#6B7280"
+            android:layout_marginBottom="24dp" />
+
+        <!-- Show Examples Toggle -->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="24dp">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Show Example Sentences"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:textColor="#1A1A2E" />
+
+            <Switch
+                android:id="@+id/show_examples_switch"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:checked="true" />
+
+        </LinearLayout>
+
+        <!-- Apply Button -->
+        <Button
+            android:id="@+id/apply_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Apply &amp; Update Widget"
+            android:backgroundTint="#0D9488"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="16dp" />
+
+        <!-- Instructions -->
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="To add the widget:\n1. Long-press your home screen\n2. Select Widgets\n3. Find &quot;Catalan Word Widget&quot;\n4. Drag it to your home screen"
+            android:textSize="13sp"
+            android:textColor="#6B7280"
+            android:lineSpacingExtra="4dp"
+            android:background="#E5E7EB"
+            android:padding="16dp" />
+
+    </LinearLayout>
+
+</ScrollView>

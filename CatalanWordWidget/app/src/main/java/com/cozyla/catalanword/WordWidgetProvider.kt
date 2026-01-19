@@ -7,6 +7,7 @@ import android.content.ComponentName
 import android.content.Context
 import android.content.Intent
 import android.util.Log
+import android.util.TypedValue
 import android.view.View
 import android.widget.RemoteViews
 
@@ -18,6 +19,12 @@ class WordWidgetProvider : AppWidgetProvider() {
         const val ACTION_REFRESH = "com.cozyla.catalanword.REFRESH"
         private const val PREFS_NAME = "CatalanWordWidget"
         private const val PREF_SHOW_TRANSLATION = "show_translation"
+
+        // Settings prefs (shared with MainActivity)
+        private const val SETTINGS_PREFS_NAME = "CatalanWordWidgetSettings"
+        private const val PREF_WORD_SIZE = "word_size"
+        private const val PREF_EXAMPLE_SIZE = "example_size"
+        private const val PREF_SHOW_EXAMPLES = "show_examples"
     }
 
     override fun onUpdate(
@@ -59,6 +66,13 @@ class WordWidgetProvider : AppWidgetProvider() {
             val word = repository.getTodaysWord()
             val showTranslation = getTranslationState(context)
 
+            // Load settings
+            val settingsPrefs = context.getSharedPreferences(SETTINGS_PREFS_NAME, Context.MODE_PRIVATE)
+            val wordSize = settingsPrefs.getInt(PREF_WORD_SIZE, 18)
+            val exampleSize = settingsPrefs.getInt(PREF_EXAMPLE_SIZE, 10)
+            val showExamples = settingsPrefs.getBoolean(PREF_SHOW_EXAMPLES, true)
+
+            Log.d(TAG, "Settings: wordSize=$wordSize, exampleSize=$exampleSize, showExamples=$showExamples")
             Log.d(TAG, "Displaying word: ${word.word}")
 
             // Set word content
@@ -67,10 +81,21 @@ class WordWidgetProvider : AppWidgetProvider() {
             views.setTextViewText(R.id.catalan_example, word.example)
             views.setTextViewText(R.id.english_example, word.exampleTranslation)
 
+            // Apply text sizes from settings
+            views.setTextViewTextSize(R.id.catalan_word, TypedValue.COMPLEX_UNIT_SP, wordSize.toFloat())
+            views.setTextViewTextSize(R.id.english_word, TypedValue.COMPLEX_UNIT_SP, (wordSize * 0.65f))
+            views.setTextViewTextSize(R.id.catalan_example, TypedValue.COMPLEX_UNIT_SP, exampleSize.toFloat())
+            views.setTextViewTextSize(R.id.english_example, TypedValue.COMPLEX_UNIT_SP, (exampleSize * 0.9f))
+            views.setTextViewTextSize(R.id.hint_text, TypedValue.COMPLEX_UNIT_SP, (exampleSize * 0.8f))
+
             // Toggle visibility based on state
             val translationVisibility = if (showTranslation) View.VISIBLE else View.GONE
             views.setViewVisibility(R.id.english_word, translationVisibility)
-            views.setViewVisibility(R.id.english_example, translationVisibility)
+            views.setViewVisibility(R.id.english_example, if (showTranslation && showExamples) View.VISIBLE else View.GONE)
+
+            // Show/hide examples based on settings
+            views.setViewVisibility(R.id.catalan_example, if (showExamples) View.VISIBLE else View.GONE)
+            views.setViewVisibility(R.id.hint_text, if (showExamples) View.VISIBLE else View.GONE)
 
             // Update hint text
             val hintText = if (showTranslation) {
