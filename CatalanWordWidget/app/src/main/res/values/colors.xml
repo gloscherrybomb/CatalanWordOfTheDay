@@ -1,10 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
+    <!-- Primary palette - Mediterranean warmth -->
+    <color name="teal_primary">#1A9B8A</color>
+    <color name="teal_light">#E8F5F3</color>
     <color name="teal_accent">#2DB3A2</color>
-    <color name="text_dark">#333333</color>
-    <color name="text_medium">#666666</color>
-    <color name="text_light">#888888</color>
-    <color name="text_hint">#AAAAAA</color>
+
+    <!-- Warm accent for Catalan sunshine -->
+    <color name="coral_accent">#F2994A</color>
+    <color name="coral_light">#FFF4EB</color>
+
+    <!-- Text hierarchy -->
+    <color name="text_primary">#1A1A2E</color>
+    <color name="text_secondary">#4A4A68</color>
+    <color name="text_tertiary">#8E8EA9</color>
+    <color name="text_on_dark">#FFFFFF</color>
+
+    <!-- Surfaces -->
     <color name="card_background">#FFFFFF</color>
-    <color name="header_background">#F8F8F8</color>
+    <color name="header_teal">#1A9B8A</color>
+    <color name="divider">#E8E8EE</color>
 </resources>

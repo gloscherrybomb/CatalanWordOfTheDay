@@ -64,8 +64,8 @@ class WordWidgetProvider : AppWidgetProvider() {
             // Set word content
             views.setTextViewText(R.id.catalan_word, word.word)
             views.setTextViewText(R.id.english_word, word.translation)
-            views.setTextViewText(R.id.catalan_example, "\"${word.example}\"")
-            views.setTextViewText(R.id.english_example, "\"${word.exampleTranslation}\"")
+            views.setTextViewText(R.id.catalan_example, word.example)
+            views.setTextViewText(R.id.english_example, word.exampleTranslation)
 
             // Toggle visibility based on state
             val translationVisibility = if (showTranslation) View.VISIBLE else View.GONE
