@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!-- Mediterranean gradient -->
+    <!-- Mediterranean gradient for header -->
     <color name="gradient_start">#0D9488</color>
     <color name="gradient_center">#06B6D4</color>
     <color name="gradient_end">#38BDF8</color>
 
-    <!-- Text on gradient -->
-    <color name="text_white">#FFFFFF</color>
-    <color name="text_light_cyan">#E0F7FA</color>
-    <color name="text_muted">#B2EBF2</color>
-    <color name="text_faded">#80FFFFFF</color>
+    <!-- Text on gradient header -->
+    <color name="text_on_header">#FFFFFF</color>
 
-    <!-- Legacy colors (for compatibility) -->
-    <color name="teal_accent">#06B6D4</color>
+    <!-- Text on white content -->
+    <color name="text_word">#1A1A2E</color>
+    <color name="text_translation">#0D9488</color>
+    <color name="text_example">#06B6D4</color>
+    <color name="text_example_english">#64748B</color>
+    <color name="text_hint">#94A3B8</color>
 </resources>
