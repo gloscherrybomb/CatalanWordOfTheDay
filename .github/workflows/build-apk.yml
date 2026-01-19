@@ -1,16 +1,15 @@
-name: Build APK
+name: Build APKs
 
 on:
   push:
     branches: [master, main]
   pull_request:
     branches: [master, main]
-  workflow_dispatch:  # Allows manual trigger
+  workflow_dispatch:
 
 jobs:
-  build:
+  build-catalan-widget:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout code
         uses: actions/checkout@v4
@@ -46,3 +45,41 @@ jobs:
         with:
           name: catalan-word-widget-release
           path: CatalanWordWidget/app/build/outputs/apk/release/app-release-unsigned.apk
+
+  build-photo-widget:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up JDK 17
+        uses: actions/setup-java@v4
+        with:
+          java-version: '17'
+          distribution: 'temurin'
+
+      - name: Setup Gradle
+        uses: gradle/actions/setup-gradle@v3
+
+      - name: Grant execute permission for gradlew
+        run: chmod +x PhotoWidget/gradlew
+
+      - name: Build Debug APK
+        working-directory: PhotoWidget
+        run: ./gradlew assembleDebug
+
+      - name: Build Release APK
+        working-directory: PhotoWidget
+        run: ./gradlew assembleRelease
+
+      - name: Upload Debug APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: photo-widget-debug
+          path: PhotoWidget/app/build/outputs/apk/debug/app-debug.apk
+
+      - name: Upload Release APK
+        uses: actions/upload-artifact@v4
+        with:
+          name: photo-widget-release
+          path: PhotoWidget/app/build/outputs/apk/release/app-release-unsigned.apk
