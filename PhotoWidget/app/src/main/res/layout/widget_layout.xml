@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget_root"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Photo display (edge-to-edge) -->
+    <ImageView
+        android:id="@+id/photo_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"
+        android:visibility="gone" />
+
+    <!-- Placeholder when no folder selected or no photos -->
+    <LinearLayout
+        android:id="@+id/placeholder_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/placeholder_background"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/placeholder_text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tap_to_select_folder"
+            android:textSize="16sp"
+            android:textColor="@color/placeholder_text"
+            android:gravity="center" />
+
+    </LinearLayout>
+
+</FrameLayout>
