@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Photo Widget</string>
+    <string name="widget_description">Displays a random photo from your selected folder each day</string>
+    <string name="tap_to_select_folder">Tap to select folder</string>
+    <string name="no_photos_found">No photos found</string>
+    <string name="folder_not_found">Folder not found - tap to reconfigure</string>
+    <string name="select_folder">Select Photo Folder</string>
+    <string name="current_folder">Current folder:</string>
+    <string name="no_folder_selected">No folder selected</string>
+    <string name="change_folder">Change Folder</string>
+</resources>
