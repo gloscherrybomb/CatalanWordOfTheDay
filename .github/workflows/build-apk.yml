@@ -3,6 +3,11 @@ name: Build APKs
 on:
   push:
     branches: [master, main]
+    paths-ignore:
+      - 'daily-briefing/**'
+      - '**.png'
+      - '**.jpg'
+      - '**.md'
   pull_request:
     branches: [master, main]
   workflow_dispatch:
